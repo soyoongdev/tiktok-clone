@@ -1,8 +1,8 @@
 import './App.css'
-import Content from './pages/Content'
+import Todo from './pages/todo/Todo'
 
-const App = () => {
-  return <Content />
+function App() {
+  return <Todo />
 }
 
 export default App
