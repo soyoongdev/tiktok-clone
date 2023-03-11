@@ -1,9 +1,8 @@
-import logo from './logo.svg'
 import './App.css'
-import ToDoApp from './todo/index'
+import Content from './pages/Content'
 
-function App() {
-  return <ToDoApp />
+const App = () => {
+  return <Content />
 }
 
 export default App
