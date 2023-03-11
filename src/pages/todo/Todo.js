@@ -3,6 +3,7 @@ import useLocalStorage from '../../hooks/useLocalStorage'
 import { setThemeAction } from './action'
 
 function Todo() {
+  // Hahaha
   const [state, dispatch] = useLocalStorage()
   const [themeState, setThemeState] = useState(true)
   const handleChangeTheme = () => {
