@@ -1,4 +1,4 @@
-import constant from '../constant/constant'
+import constant from '~/constant/constant'
 
 const initState = {
   theme: 'light'
